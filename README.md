@@ -1,4 +1,4 @@
-# ql_fetcher - a lightweight C++ library for downloading data from [Quandl](https://www.quandl.com)
+# A lightweight C++ library for downloading data from [Quandl](https://www.quandl.com)
 
 ## Installing
 

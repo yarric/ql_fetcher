@@ -194,7 +194,6 @@ namespace ql_fetcher
         template <typename CallBack>
         auto with(CallBack cb)
         {
-            make();
             return std::async(std::launch::deferred,
             [=] {
                 return cb(make().get());

@@ -9,6 +9,7 @@ To install add the [ql_fetcher](https://raw.githubusercontent.com/yarric/ql_fetc
 Let’s fetch 100 Low price points in ascending order of the EDF2017 future from Quandl’s CME data source and parse them with [json](https://github.com/nlohmann/json):
 
 ```c++
+#define QL_FETCHER_IMPL                             // define only once in your project
 #include "ql_fetcher"
 #include "json.hpp"                                 // see the link above
 #include <iostream>
